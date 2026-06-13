@@ -151,7 +151,7 @@ export function Interview({ onXP }) {
         `Tell me about yourself and why you're interested in this ${jobRole} role.`,
         'Describe a challenging project you led. What was your approach?',
         'How do you handle disagreements with teammates or stakeholders?',
-        'What's your biggest professional achievement in the last year?',
+        'What is your biggest professional achievement in the last year?',
         'Where do you see yourself in 3 years and how does this role help you get there?',
       ])
       setCurrentQ(0)
