@@ -130,14 +130,67 @@ export const JARGON = [
     definition: 'Training employees to develop new or enhanced skills.',
     example: '"We\'re investing in upskilling our team on AI tools."',
     tip: 'Shows forward-thinking leadership when you advocate for upskilling.' },
-]
 
-export const CATEGORIES = ['All', 'Meetings', 'Strategy', 'Finance', 'HR']
-export const DIFFICULTIES = ['All', 'beginner', 'intermediate', 'advanced']
+  // ADDED TERMS (EXTENSIONS)
+
+  { id: 'm9', term: 'Keep me in the loop', category: 'Meetings', difficulty: 'beginner',
+    definition: 'To keep someone updated about changes, progress, or decisions.',
+    example: '"Please keep me in the loop on any updates."',
+    tip: 'Use when continuous updates are needed.' },
+
+  { id: 'm10', term: 'Bring you up to speed', category: 'Meetings', difficulty: 'beginner',
+    definition: 'To give someone the latest information.',
+    example: '"I’ll bring you up to speed before the call."',
+    tip: 'Useful when someone joins mid-project.' },
+
+  { id: 'm11', term: 'Touch base', category: 'Meetings', difficulty: 'beginner',
+    definition: 'To briefly connect or check in.',
+    example: '"Let’s touch base tomorrow."',
+    tip: 'Short, informal alignment.' },
+
+  { id: 'm12', term: 'Walk me through', category: 'Meetings', difficulty: 'beginner',
+    definition: 'To explain step-by-step.',
+    example: '"Walk me through your idea."',
+    tip: 'Used for structured explanations.' },
+
+  { id: 's10', term: 'Big picture', category: 'Strategy', difficulty: 'beginner',
+    definition: 'The overall view or main goal.',
+    example: '"Focus on the big picture."',
+    tip: 'Used to avoid over-focusing on details.' },
+
+  { id: 's11', term: 'Think outside the box', category: 'Strategy', difficulty: 'beginner',
+    definition: 'To think creatively beyond conventional ideas.',
+    example: '"We need to think outside the box."',
+    tip: 'Innovation-driven thinking.' },
+
+  { id: 's12', term: 'Deep dive', category: 'Strategy', difficulty: 'intermediate',
+    definition: 'A detailed analysis of something.',
+    example: '"Let’s do a deep dive into the data."',
+    tip: 'Used in analytical discussions.' },
+
+  { id: 'r4', term: 'Bottleneck', category: 'Strategy', difficulty: 'intermediate',
+    definition: 'A point that slows down progress.',
+    example: '"This step is a bottleneck."',
+    tip: 'Process delay indicator.' },
+
+  { id: 'r5', term: 'Pain point', category: 'Strategy', difficulty: 'beginner',
+    definition: 'A problem users or customers face.',
+    example: '"Identify the pain points."',
+    tip: 'Core UX/business concept.' },
+
+  { id: 'r6', term: 'Red flag', category: 'Strategy', difficulty: 'beginner',
+    definition: 'A warning sign.',
+    example: '"That’s a red flag."',
+    tip: 'Signals risk early.' }
+];
+
+export const CATEGORIES = ['All', 'Meetings', 'Strategy', 'Finance', 'HR'];
+
+export const DIFFICULTIES = ['All', 'beginner', 'intermediate', 'advanced'];
 
 export const CATEGORY_COLORS = {
   Meetings: 'bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-300',
   Strategy: 'bg-purple-100 dark:bg-purple-900/40 text-purple-600 dark:text-purple-300',
   Finance: 'bg-emerald-100 dark:bg-emerald-900/40 text-emerald-600 dark:text-emerald-300',
-  HR: 'bg-orange-100 dark:bg-orange-900/40 text-orange-600 dark:text-orange-300',
-}
+  HR: 'bg-orange-100 dark:bg-orange-900/40 text-orange-600 dark:text-orange-300'
+};
